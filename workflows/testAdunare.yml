@@ -1,0 +1,12 @@
+name: testAdunare
+on: [push]
+jobs:
+	build:
+		runs-on: ubuntu-latest 
+		compiler: [gcc]
+		strategy:
+			matrix:
+
+		steps:
+		- name: echo "Zincenco Petru 311AC"
+
